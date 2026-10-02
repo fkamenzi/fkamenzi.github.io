@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Information</title>
+
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 550px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 20px;
+    }
+
+    th, td {
+      border: 1px solid #666;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      font-weight: bold;
+    }
+
+    .note {
+      margin-top: 60px;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Student ID</th>
+    </tr>
+
+    <tr>
+      <td>Anele Dlamini</td>
+      <td>1143546</td>
+    </tr>
+  </table>
+
+
+</body>
+</html>
