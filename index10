@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Heading Styles</title>
+
+<style>
+    body {
+        background-color: #eeeeee;
+        font-family: "Times New Roman", serif;
+    }
+
+    .container {
+        width: 400px;
+        height: 108px;
+        background-color: white;
+        margin: 10px;
+        padding: 6px;
+        box-shadow: 2px 3px 8px #888888;
+        border: 1px solid #cccccc;
+    }
+
+    h1 {
+        font-size: 26px;
+        color: #800000;
+        margin: 0 0 14px 0;
+        border-top: 3px solid black;
+        width: 195px;
+        text-shadow: 1px 1px 1px black;
+    }
+
+    h2 {
+        font-size: 22px;
+        font-style: italic;
+        border: 2px solid #d5cc00;
+        margin: 0;
+        padding: 0;
+    }
+
+    h3 {
+        font-size: 16px;
+        text-align: right;
+        text-decoration: underline;
+        margin: 16px 0 0 0;
+    }
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>This is heading 1</h1>
+        <h2>This is heading 2</h2>
+        <h3>This is heading 3</h3>
+    </div>
+</body>
+</html>
