@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Transition Practice</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+
+    .square {
+        width: 80px;
+        height: 80px;
+        background-color: pink;
+        margin: 25px 0;
+        transition: all 0.5s ease;
+        display: flex;
+        align-items: flex-start;
+        font-size: 20px;
+    }
+
+    .square1:hover {
+        width: 460px;
+    }
+
+    .square2:hover {
+        width: 104px;
+        height: 104px;
+    }
+</style>
+</head>
+
+<body>
+
+<p>• Mouse hover square 1: the square becomes longer.</p>
+<p>• Mouse hover square 2: the square becomes larger.</p>
+
+<div class="square square1">1</div>
+
+<div class="square square2">2</div>
+
+</body>
+</html>
